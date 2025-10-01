@@ -44,8 +44,7 @@ PolkaArena is a **decentralized arcade gaming marketplace** built on the Polkado
 
 ---
 
-## 📸 Scree<img width="1512" height="982" alt="Screenshot 2025-10-02 at 03 12 51" src="https://github.com/user-attachments/assets/b049118e-07a4-4ba2-8901-caf309e7da2a" />
-nshots
+## 📸 Screenshots
 
 ### Home Page - Game Library
 <img width="1624" height="969" alt="Screenshot 2025-10-02 at 04 05 54" src="https://github.com/user-attachments/assets/f6cb06eb-53fb-4ebd-b5eb-f0cb34c94d0b" />
