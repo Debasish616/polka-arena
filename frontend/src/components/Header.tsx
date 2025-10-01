@@ -112,7 +112,7 @@ const WalletModal: React.FC<{
                       onSelectWallet(
                         wallets.find(
                           (w) => w.metadata.title === wallet.title
-                        ) as BaseWallet
+                        ) as BaseWallets
                       )
                     }
                     className={`mt-2 px-3 py-1 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition duration-200 ${
@@ -134,11 +134,15 @@ const WalletModal: React.FC<{
                     Install <ExternalLink size={14} className="ml-1" />
                   </a>
                 )}
-                {isConnecting && connectingWallet === wallet.title && (
-                  <div className="absolute inset-0 bg-white bg-opacity-80 flex items-center justify-center">
-                    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-600" />
-                  </div>
-                )}
+                {wallet.type === "WALLET_CONNECT" && (
+                  <button
+                    type="button"
+                    onClick={() => onSelectWallet(wallet)}
+                    className="mt-2 px-3 py-1 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200"
+                  >
+                    Connect with WalletConnect
+                  </button>
+                )} 
               </div>
             );
           })}
