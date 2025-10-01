@@ -23,14 +23,14 @@ export const calculateGamingActivity = ({
   const interactionScore = (keyStrokes + mouseClicks) * 2;
 
   // Time engagement factor (using sqrt for diminishing returns)
-  const timeEngagementFactor = Math.sqrt(totalGamePlayDuration) * 10;
+  const timeEngagementFactor = Math.sqrt(totalGamePlayDuration) * 12;
 
   // Gameplay frequency bonus
   const gameplayBonus = numberOfGameplays * 100;
 
   // Calculate final score with diminishing returns
   const rawScore = interactionScore + timeEngagementFactor + gameplayBonus;
-  const finalScore = Math.floor(Math.sqrt(rawScore) * 100);
+  const finalScore = Math.floor(Math.sqrt(rawScore) / 100);
 
   return finalScore;
 };
