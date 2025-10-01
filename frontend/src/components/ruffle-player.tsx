@@ -45,6 +45,10 @@ const RufflePlayerComponent: React.FC<RufflePlayerProps> = ({
   const { connectedAccount } = useWalletStore((state) => state);
   const { accountAddress: metamaskAddress } = useMetaMask((state) => state);
   const addrRef = useRef<string | null>(null);
+  
+  
+  containerRef.current.appendChild(player);
+  playerRef.current = player;
 
   const containerRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<RufflePlayer | null>(null);
