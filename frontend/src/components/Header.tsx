@@ -89,7 +89,7 @@ const WalletModal: React.FC<{
 
         <div className="grid grid-cols-2 gap-4">
           {allWallets?.map((wallet) => {
-            const isInstalled = installedWallets.has(wallet.title);
+            const isInstalled = installedWallets.has(wallet);
             return (
               <div
                 key={wallet.id}
