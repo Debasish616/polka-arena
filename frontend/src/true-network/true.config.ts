@@ -22,11 +22,12 @@ export const config: TrueConfig = {
   },
   issuer: {
     name: "dotcade",
-    hash: "0xc4dc0e2ce7ff3034f7d94cfe9cf5e8b90e57168c73b6eab3dbfa22abc637ab55",
+    hash: "0xc4dc0e2ce7ff3034f7d94cfe9cf5e8b90e57168c73b6eab3dbfa22abc637ab52",
   },
   algorithm: {
     id: undefined,
     path: undefined,
     schemas: [],
+
   },
 };
