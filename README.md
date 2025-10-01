@@ -161,7 +161,7 @@ Play game → Score attested via True Network →
 Reputation updated on-chain
 ```
 
-### 3. Cross-Game Assets (Coming Soon)
+### 3. Cross-Game Assets
 
 ```
 Player → Unlock NFT in Game A →
@@ -182,15 +182,6 @@ NFT stored in wallet → Use NFT in Game B
 | ❌ Platform owns data | ✅ You own your data |
 | ❌ Fake leaderboards | ✅ Provably fair scores |
 | ❌ No asset portability | ✅ Cross-game assets |
-
-### Democratizing Gaming
-
-PolkaArena removes gatekeepers from gaming, similar to how:
-- YouTube democratized video creation
-- Spotify democratized music distribution
-- Roblox democratized game creation
-
-We're building a **fair, open, and transparent gaming economy** where creators and players are rewarded directly.
 
 ---
 
@@ -227,70 +218,6 @@ We're building a **fair, open, and transparent gaming economy** where creators a
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-1. **Developers**: Contribute code, fix bugs, add features
-2. **Designers**: Improve UI/UX, create assets
-3. **Gamers**: Test games, report issues, provide feedback
-4. **Game Creators**: Upload your games and help grow the library
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## 📄 Documentation
-
-- [Setup Guide](SETUP.md) - Complete setup from scratch
-- [Deployment Guide](contracts/MOONBEAM_DEPLOYMENT.md) - Deploy smart contracts
-- [Integration Guide](INTEGRATION_GUIDE.md) - Integrate with the platform
-- [Project Description](PROJECT_DESCRIPTION.txt) - Detailed project overview
-
----
-
-## 🛡️ Security
-
-Smart contracts have been developed with security best practices. However, this is currently a hackathon MVP and has not undergone formal audits. Use at your own risk.
-
-For security concerns, please contact: [your-email@example.com]
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **Polkadot** - For the incredible blockchain infrastructure
-- **Moonbeam** - For EVM compatibility on Polkadot
-- **True Network** - For attestation infrastructure
-- **IPFS** - For decentralized storage
-- **The Community** - For support and feedback
-
----
-
-## 📬 Contact & Community
-
-- **Twitter**: [@prathamesh_io](https://x.com/prathamesh_io)
-- **Website**: [Coming Soon]
-- **Discord**: [Coming Soon]
-- **Telegram**: [Coming Soon]
-
----
-
-## ⭐ Show Your Support
-
-If you like this project, please consider:
-- ⭐ Starring this repository
-- 🐦 Following on Twitter
-- 🎮 Uploading your games
-- 📢 Spreading the word
-
----
 
 <div align="center">
 
