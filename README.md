@@ -1,7 +1,5 @@
 # 🎮 PolkaArena - Decentralized Arcade Gaming Marketplace
 
-![PolkaArena Logo](frontend/public/400x600.png)
-
 > **The Web3 version of Roblox** - A permissionless platform where anyone can upload, play, and monetize games on the blockchain.
 
 [![Built on Polkadot](https://img.shields.io/badge/Built%20on-Polkadot-E6007A)](https://polkadot.network/)
@@ -46,22 +44,23 @@ PolkaArena is a **decentralized arcade gaming marketplace** built on the Polkado
 
 ---
 
-## 📸 Screenshots
+## 📸 Scree<img width="1512" height="982" alt="Screenshot 2025-10-02 at 03 12 51" src="https://github.com/user-attachments/assets/b049118e-07a4-4ba2-8901-caf309e7da2a" />
+nshots
 
 ### Home Page - Game Library
-![Home Page](docs/screenshots/homepage.png)
+<img width="1624" height="969" alt="Screenshot 2025-10-02 at 04 05 54" src="https://github.com/user-attachments/assets/f6cb06eb-53fb-4ebd-b5eb-f0cb34c94d0b" />
 *Browse hundreds of arcade games organized by category*
 
 ### Upload Page - Blockchain Integration
-![Upload Page](docs/screenshots/upload.png)
+<img width="1624" height="969" alt="Screenshot 2025-10-02 at 04 06 13" src="https://github.com/user-attachments/assets/5def99d7-58b1-4cff-815c-f3ab85ad656a" />
 *Upload games directly to the blockchain via smart contracts*
 
 ### Game Page - Play & Attest
-![Game Page](docs/screenshots/gameplay.png)
+<img width="1624" height="969" alt="Screenshot 2025-10-02 at 04 06 36" src="https://github.com/user-attachments/assets/3668924b-27a3-450e-be72-efb39a758545" />
 *Play games and get your scores attested on-chain*
 
 ### Profile Page - Reputation System
-![Profile Page](docs/screenshots/profile.png)
+<img width="1624" height="969" alt="Screenshot 2025-10-02 at 04 07 09" src="https://github.com/user-attachments/assets/fed688f2-a424-4392-8f5b-fd377184f53b" />
 *View your gaming stats and on-chain reputation*
 
 ---
