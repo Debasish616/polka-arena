@@ -8,12 +8,7 @@ function GameCard({
   item: Game;
   handleClick: (item: Game) => void;
 }) {
-  const [like, setLike] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
-
-  const toggleLike = async () => {
-    setLike((val) => !val);
-  };
+ 
 
   return (
     <div className="group relative overflow-hidden min-w-[320px] mx-2">
@@ -47,14 +42,14 @@ function GameCard({
           />
         </div>
         <h4
-          className="text-xl font-bold text-white mb-2 truncate whitespace-nowrap overflow-hidden"
+          className="text-xl font-bold text-white mb-2  whitespace-nowrap overflow-hidden"
           title={item.name}
         >
           {item.name}
         </h4>
         <button
           onClick={() => handleClick(item)}
-          className="mt-4 w-full px-4 py-2 bg-gradient-to-r from-cyan-400 to-blue-400 text-black font-bold transform group-hover:scale-105 transition-transform"
+          className="mt-4 w-full bg-gradient-to-r from-cyan-400 to-blue-400 text-black font-bold transform group-hover:scale-105 transition-transform"
         >
           PLAY
         </button>

@@ -27,7 +27,7 @@ function GameRow({
       return;
     }
 
-    const scrollAmount = direction === "left" ? -400 : 400;
+    const scrollAmount = direction === "left" ? -200 : 200;
     carouselRef.current.scrollBy({
       left: scrollAmount,
       behavior: "smooth",
@@ -72,10 +72,10 @@ function GameRow({
 
           {showRightButton && (
             <button
-              onClick={() => scroll("right")}
+              onClick={() => scroll("left")}
               className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 bg-black bg-opacity-50 p-2 rounded-full text-white hover:bg-opacity-75 transition-all"
             >
-              <ChevronRight className="w-8 h-8" />
+              <ChevronRight className="w-2 h-2" />
             </button>
           )}
 
