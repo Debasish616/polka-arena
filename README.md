@@ -6,6 +6,9 @@
 [![Moonbeam](https://img.shields.io/badge/Powered%20by-Moonbeam-53CBC9)](https://moonbeam.network/)
 [![True Network](https://img.shields.io/badge/Attestations-True%20Network-7C3AED)](https://true.network/)
 
+
+[![Watch the video](https://github.com/user-attachments/assets/f6cb06eb-53fb-4ebd-b5eb-f0cb34c94d0b)](https://www.youtube.com/watch?v=NSXO_kmyZSs)
+
 ---
 
 ## 🌟 What is PolkaArena?
